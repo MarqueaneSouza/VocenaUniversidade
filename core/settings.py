@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pagina.apps.PaginaConfig',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -124,7 +126,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+#CONFIGURAÇÃO DO AMBIENTE DE DESENVOLVIMENTO
+STATIC_URL = 'static/' #define caminho relativo para o diretório de arquivos estáticos da aplicação ou projeto.
+STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL) #define o caminho absoluto (URL) para o local em que os arquivos estáticos serão armazenados.
+
+
+MEDIA_URL = 'images/' #pode ser qualquer nome no,lugar de 'images'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+
+CKEDITOR_UPLOAD_PATH = 'uploads/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
