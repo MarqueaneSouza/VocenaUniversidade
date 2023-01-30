@@ -7,4 +7,6 @@ def home(request): #Carregar a home com todos os posts catalogados no banco de d
     context = {
         'posts': posts
     }
-    return render(request, 'pagina/home.html', context)
+    # return render(request, 'pagina/home.html', context)
+    # return render(request, 'pagina/home_teste.html', context)
+    return render(request, 'pagina/home_layoutit.html', context)
