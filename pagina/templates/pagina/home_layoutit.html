@@ -7,22 +7,25 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="{% static 'img/educacao1.png' %}"/>
     <title>Voce na Universidade</title>
 
 </head>
+
 <body>
     <!--CABEÇALHO-->
-
     <div class="container-fluid bg-light mb-3">
         <div class="row justify-content-center">
-            <div class="col-10">
+
+            <div class="col-xl-10">
                 <header class="bg-dark" my-2>
+
                     <!--NAVBAR-->
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                        <div class="container-fluid">
+                        <div class="container-fluid px-0">
 
                             <a class="navbar-brand" href="/">Você na Universidade</a>
 
@@ -72,15 +75,119 @@
                                             <li class="nav-item">
                                                 <a class="nav-link active" href="#">Como funciona?</a>
                                             </li>
-
-
-
+                                    
                                     </li>
                                 </ul>
 
                             </div>
                         </div>
                     </nav>
+
+                    <!--CARROSEL-->
+
+                    <div class="container-fluid d-none d-lg-block px-0">
+                        <div id="carouselExampleControls"
+                             class="carousel slide"
+                             data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+
+                                    <svg class="bd-placeholder-img"
+                                         width="100%"
+                                         height="100%"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true"
+                                         preserveAspectRatio="xMidYMid slice"
+                                         focusable="false">
+
+                                        <rect width="100%" height="100%" fill="#7DCFB6"/>
+
+                                    </svg>
+
+                                    <!--LEGENDA 01-->
+                                    <div class="carousel-caption d-none d-md-block text-dark">
+                                        <h3>INSCRIÇÕES ABERTAS</h3>
+                                        <h5 class="text-white">
+                                            De 05 a 17 de março.
+                                            <br/>
+                                            Não perca!
+                                        </h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="carousel-item">
+
+                                    <svg class="bd-placeholder-img"
+                                         width="100%"
+                                         height="100%"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true"
+                                         preserveAspectRatio="xMidYMid slice"
+                                         focusable="false">
+
+                                        <rect width="100%" height="100%" fill="#DBAFC1"/>
+
+                                    </svg>
+
+                                    <!--LEGENDA 02-->
+                                    <div class="carousel-caption d-none d-md-block text-dark">
+                                        <h3>+ de 3 milhões investidos </h3>
+                                        <h5 class="text-white">
+                                            na formação de jovens universitários.
+                                        </h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="carousel-item">
+                                    <svg class="bd-placeholder-img"
+                                         width="100%"
+                                         height="100%"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         aria-hidden="true"
+                                         preserveAspectRatio="xMidYMid slice"
+                                         focusable="false">
+
+                                        <rect width="100%" height="100%" fill="#75B9BE"/>
+                                        amarelo
+
+                                    </svg>
+
+                                    <!--LEGENDA 03-->
+                                    <div class="carousel-caption d-none d-md-block text-dark">
+                                        <h3>Prefeitura de Santa Bárbara/MG</h3>
+                                        <h5 class="text-white">
+                                            fazendo mais, fazendo melhor!
+                                        </h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselExampleControls"
+                                    data-bs-slide="prev">
+
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselExampleControls"
+                                    data-bs-slide="next">
+
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    
                 </header>
             </div>
         </div>
@@ -92,10 +199,11 @@
     <main class="bg-light">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-xl-10">
+
                     <div class="row">
 
-                        <div class="col-6">
+                        <div class="col-lg-6 d-none d-lg-flex">
                              <!--CARD-->
                             <div class="card">
 
@@ -104,7 +212,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <div _ngcontent-bxj-c72 class="texto">
                                  <h2 _ngcontent-bxj-c72>
                                      o que é o
@@ -136,6 +244,7 @@
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
@@ -148,13 +257,13 @@
 
             <div class="row justify-content-center">
                 <!--COLUNA 1-->
-                <div class="col-4 text-left">
+                <div class="col-lg-4 text-left">
                     imagem aqui
                 </div>
                 <!--COLUNA 1-->
 
                 <!--COLUNA 2-->
-                <div class="col-4 text-center">
+                <div class="col-lg-4 text-center">
 
                     <h5 class="fw-bold text-info">Secretaria Municipal de Educação</h5>
 
@@ -209,11 +318,9 @@
 <!--    </div>-->
 <!--</div>-->
 <!--</footer>-->
-
     <!--JavaScript! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
-
 </body>
 </html>
