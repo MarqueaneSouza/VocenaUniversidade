@@ -27,6 +27,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pagina.apps.PaginaConfig',
+    'como_funciona.apps.ComoFuncionaConfig',
+    'duvidas.apps.DuvidasConfig',
+    'inscricoes.apps.InscricoesConfig',
+    'normas.apps.NormasConfig',
     'ckeditor',
     'ckeditor_uploader',
 ]
@@ -121,7 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL) #define o caminho absoluto (URL
 
 
 MEDIA_URL = 'images/' #pode ser qualquer nome no,lugar de 'images'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, '../pagina/static/images')
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 

@@ -7,6 +7,7 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="{% static 'img/educacao1.png' %}"/>
@@ -27,7 +28,7 @@
 
                         <div class="container-fluid px-0">
 
-                            <a class="navbar-brand" href="/">Você na Universidade</a>
+                            <a class="navbar-brand" href="{% url 'home' %}">Você na Universidade</a>
 
                             <button class="navbar-toggler"
                                     type="button"
@@ -207,18 +208,26 @@
                              <!--CARD-->
                             <div class="card">
 
-                                <img src="{% static 'img/estudante.png' %}" class="card-img-top" alt="Imagem do card">
+                                <img src="{% static 'core/estudante.png' %}"
+                                     class="card-img-top img-250"
+                                     alt="Imagem do card">
 
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div _ngcontent-bxj-c72 class="texto">
+
+                                <hr class="my-2">
+
                                  <h2 _ngcontent-bxj-c72>
                                      o que é o
                                      <br _ngcontent-bxj-c72>
                                      <strong _ngcontent-bxj-c72>Programa Você na Universidade?</strong>
                                  </h2>
+
+                                 <hr class="my-2">
+
                                 <br/>
                                     O
                                      <strong _ngcontent-bxj-c72>Programa Você na Universidade</strong>
