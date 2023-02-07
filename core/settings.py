@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'duvidas.apps.DuvidasConfig',
     'inscricoes.apps.InscricoesConfig',
     'normas.apps.NormasConfig',
+    'login.apps.LoginConfig',
     'ckeditor',
     'ckeditor_uploader',
 ]
