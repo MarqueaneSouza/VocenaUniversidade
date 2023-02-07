@@ -8,5 +8,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pagina.urls')), #quando o usuário digitar só o endereço localhost, ele vai carregar as urls da minha aplicação pagina.
     path('como_funciona/', include('como_funciona.urls')),
+    path('duvidas/', include('duvidas.urls')),
+    path('inscricoes/', include('inscricoes.urls')),
+    path('normas/', include('normas.urls')),
+    # path('normas/', include('decretos.urls')),
+    # path('normas/', include('portarias.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
