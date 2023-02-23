@@ -3,7 +3,7 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.leis, name="leis"),
-    # path('', views.decretos, name="decretos"),
+    path('leis', views.leis, name="leis"),
+    path('decretos', views.decretos, name="decretos"),
     # path('', views.portarias, name="portarias"),
 ]
