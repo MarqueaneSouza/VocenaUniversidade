@@ -1,0 +1,22 @@
+* {
+    bodyfont-size: 90px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+ h1 {
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #2e5574;
+  }
+
+ h2 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: #2e5574;
+  }
+
+ p {
+ font-size: 18px;
+ text-align: justify;
+ color: #212529;
+ }

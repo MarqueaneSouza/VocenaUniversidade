@@ -1,0 +1,49 @@
+* {
+    bodyfont-size: 90px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+h2 {
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #1d086d;
+  }
+
+h2  strong{
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: #8a05be;
+  }
+
+p {
+    font-size: 18px;
+    color: #1d086d;
+    text-align: justify;
+}
+
+.filter {
+  position: relative;
+  -webkit-filter: contrast(120%) saturate(125%);
+  filter: contrast(120%) saturate(125%);
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #1d086d;
+    text-align: center;
+    color: #fff;
+
+}
+
+.coluna3 {
+    color: #fff;
+    font-weight:500;
+    background-color: #815fa4;
+}
+
+.rodape {
+    font-size: 24px;
+    color: #1d086d
+
+}
