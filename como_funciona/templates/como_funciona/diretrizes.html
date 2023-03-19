@@ -10,12 +10,17 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'como_funciona/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Rubik:wght@300&display=swap"
+          rel="stylesheet">
 
     <title>Como Funciona?!</title>
   </head>
   <body>
 
+<!--CABEÇALHO-->
   <div class="container-fluid bg-light mb-3">
     <div class="row justify-content-center">
 
@@ -30,16 +35,28 @@
     </div>
   </div>
 
-  <h1>Como funciona o Programa Você na Universidade ?!</h1>
+    <div class="topo">
+      <h1>Como Funciona o Programa?"</h1>
+      <h3>Os interessados deverão observar o seguinte procedimento:</h3>
 
+
+      <div class="custom-shape-divider-bottom-1678405045">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,
+                72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+      </div>
+
+    </div>
+
+<!--CONTEÚDO-->
   <main class="bg-light">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xl-10">
 
-           <p>Os interessados em obter os benefícios do programa “Você na Universidade” no ano de 2023, deverão observar
-            o seguinte procedimento:</p>
-
+          <br>
 
           <p>I – O interessado deverá, no período de 12 a 27 de março de 2018, no horário divulgado no site da prefeitura
             (www.santabarbara.mg.gov.br) e apresentar requerimento dirigido a Secretaria Municipal de Educação, onde comprovará
@@ -65,8 +82,8 @@
             mesmos serão cadastrados para fins de recebimento do benefício.</p>
 
 
-          <p>A inscrição poderá ser feita por representante do interessado, mediante a apresentação de procuração
-            específica. A procuração poderá ser por instrumento público ou, no mínimo, com firma reconhecida em cartório.</p>
+          <h2>A inscrição poderá ser feita por representante do interessado, mediante a apresentação de procuração
+            específica. A procuração poderá ser por instrumento público ou, no mínimo, com firma reconhecida em cartório.</h2>
 
 
 
@@ -75,7 +92,7 @@
     </div>
   </main>
 
-  {% include 'fragments/footer.html' with var_position='fixed-bottom' %}
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

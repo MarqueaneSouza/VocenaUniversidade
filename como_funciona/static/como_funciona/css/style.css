@@ -10,12 +10,21 @@
     font-weight: bold;
   }
 
- h2 {
-    font-size: 24px;
+   h2 {
+    font-size: 18px;
     font-family: 'Nunito', sans-serif;
-    color:#2e5574;
+    color: #2e5574;
     font-weight: bold;
+    text-align: center;
+    background-color: #F7EF81;
   }
+
+p {
+    font-size: 18px;
+    color: #2e5574;
+    text-align: justify;
+
+}
 
  .accordion-button  {
    color: #161616 !important;
@@ -88,27 +97,6 @@
 
 .custom-shape-divider-bottom-1678405045 .shape-fill {
     fill: #FFFFFF;
-}
-
-.coluna3 {
-    color: #fff;
-    font-weight:500;
-    background-color: #815fa4;
-}
-
-h5 {
-    font-size: 16px;
-    font-family: 'Nunito', sans-serif;
-    color: #1d086d;
-    text-align: center;
-    color: #fff;
-
-}
-
-.rodape {
-    font-size: 24px;
-    color: #1d086d
-
 }
 
 
